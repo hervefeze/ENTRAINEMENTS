@@ -24,7 +24,7 @@ def main():
         print("Entrez le deuxième nombre")
         nb2 = int(input())
         resultat = operations.soustraction(nb1, nb2)
-        print("La soustraction de", nb1, "dans", nb2, "vaut", resultat)
+        print(f"La soustraction de {nb1} - {nb2} vaut {resultat}")
     if choix == 3:
         print("Entrez le premier nombre")
         nb1 = int(input())
